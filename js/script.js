@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    let time = 1 * 60 * 60;
+    let time = 9 * 60 * 60;
     let timeOrigin = time;
     let hour = parseInt(timeOrigin / 60);
 
@@ -41,5 +41,5 @@ $(document).ready(function(){
         if(second < 10){
             $("main .cont_box .notice .info .flex .deadline .flex_box .box:last-child() p").text("0" + second);
         }
-    }, 1);
+    }, 1000);
 });

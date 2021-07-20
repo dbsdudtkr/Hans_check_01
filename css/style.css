@@ -94,7 +94,7 @@ main .cont_box .notice footer img{display: block; height: 40px; margin: 0 auto;}
 
 
 
-
+/* 브라우저 넓이 800px 이하일 때 */
 @media (max-width:650px){
     main .cont_box{width: 100%; height: 100%; min-height: 100%;}
     main .cont_box .notice .txt_part h1{font-size: 20px;}
@@ -118,7 +118,9 @@ main .cont_box .notice footer img{display: block; height: 40px; margin: 0 auto;}
     main .cont_box .notice p:nth-child(6){padding-bottom: 0;}
     main .cont_box .notice p:nth-child(8){padding: 5px 0 10px;}
     main .cont_box .notice .info{padding: 10px;}
-
-
+}
+/* 화면고정, 모바일  */
+@media (min-height:894px) and (max-width: 768px){
+    body{overflow-y: hidden;}
 }
 
