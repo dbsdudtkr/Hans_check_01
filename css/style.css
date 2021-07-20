@@ -108,7 +108,7 @@ main .cont_box .notice footer img{display: block; height: 40px; margin: 0 auto;}
     main .cont_box .notice p:nth-child(8){font-size: 14px;}
     main .cont_box .notice .img_part img{height: 80px;}
     main .cont_box .notice .info .flex h3{width: 80px; font-size: 12px;}
-    main .cont_box .notice .info .flex .deadline .flex_box .box{width: calc(100% / 3);}
+    main .cont_box .notice .info .flex .deadline .flex_box .box{width: 50px;}
     main .cont_box .notice .info .flex .date{}
     main .cont_box .notice .info .flex .date p{font-size: 12px;}
     main .cont_box .notice .txt_part{padding-top: 10px;}
